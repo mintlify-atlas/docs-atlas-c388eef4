@@ -1,0 +1,87 @@
+{
+  "projectType": "sdk-library",
+  "projectName": "Mantle Polaris",
+  "projectDescription": "Drop-in Polaris components for integrating Shopify app billing UI with Mantle",
+  "theme": "palm",
+  "primaryColor": "#008060",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/setup-provider",
+              "guides/displaying-plans",
+              "guides/managing-subscriptions",
+              "guides/customization"
+            ]
+          },
+          {
+            "group": "Examples",
+            "pages": [
+              "examples/basic-integration",
+              "examples/custom-styling",
+              "examples/localization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Components",
+        "groups": [
+          {
+            "group": "Plan Display",
+            "pages": [
+              "components/horizontal-plan-cards",
+              "components/vertical-plan-cards",
+              "components/highlighted-plan-cards"
+            ]
+          },
+          {
+            "group": "Subscription Management",
+            "pages": [
+              "components/subscription-summary-card",
+              "components/subscription-summary-page"
+            ]
+          },
+          {
+            "group": "Other Components",
+            "pages": [
+              "components/checklist-card",
+              "components/bundle-card"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Pre-built Shopify Polaris components for billing UI",
+    "Multiple plan display layouts (horizontal, vertical, highlighted)",
+    "Subscription management components with cancel/upgrade flows",
+    "Checklist component for onboarding and task tracking",
+    "Bundle promotion cards for cross-app upsells",
+    "Seamless integration with Mantle's billing API"
+  ],
+  "publicApiSurface": [
+    "HorizontalPlanCards",
+    "VerticalPlanCards",
+    "HighlightedPlanCards",
+    "SubscriptionSummaryCard",
+    "SubscriptionSummaryPage",
+    "ChecklistCard",
+    "BundleCard"
+  ]
+}
